@@ -25,7 +25,7 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md", sidebaricon: address-card}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
+  - {title: Contact, icon: envelope, file: "contact.html"}
   - {title: Github, icon: github, url: "https://github.com/kksecops"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
