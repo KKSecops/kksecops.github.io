@@ -20,7 +20,7 @@ show_minimal: false             # remove all clutter
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "home.html", sidebaricon: home}
   - {file: "projects.html", sidebaricon: code}
-  - {file: "writeups.html", sidebaricon: user-secret
+  - {file: "writeups.html", sidebaricon: user-secret}
   - {file: "academic.html", sidebaricon: user-graduate}
   - {file: "README.md", sidebaricon: address-card}
 
