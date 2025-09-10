@@ -26,12 +26,12 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "projects.html", sidebaricon: code}
   - {file: "writeups.html", sidebaricon: user-secret}
   - {file: "academic.html", sidebaricon: user-graduate}
-  - {file: "README.md", sidebaricon: address-card}
-
 external:                       # accepts {file, title, url, icon, sidebaricon}
+  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+footer:                         # accepts {file, title, url, icon, sidebaricon}
+  - {file: "README.md", sidebaricon: address-card}
   - {title: Contact, icon: envelope, file: "contact.html"}
   - {title: Github, icon: github, url: "https://github.com/kksecops"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
