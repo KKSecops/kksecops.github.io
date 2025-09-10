@@ -1,17 +1,21 @@
 title: "KKSecOps"
 author: "K"
 description: "K's Portfolio Blog"
-permalink: /:title/
+permalink: /:year/:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
+paginate: 5
+paginate_path: /page/:num/ #test this
 
 # Layout
 
 show_excerpts: true             # show article excerpts instead of archive list on the home page
 show_frame: true                # display a grey frame on large screens
 show_sidebar: true            # show a sidebar instead of the usual header
+show_description: false       # dont include description
 show_minimal: false             # remove all clutter
+dark_header: true #does this work?
 
 show_frame: "/assets/images/background.svg"
 
@@ -35,3 +39,4 @@ comments:
 
 plugins:
  - jekyll-feed
+ - jekyll-paginate
