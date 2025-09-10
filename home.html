@@ -5,6 +5,8 @@ layout: default
 
 <main>
   <header><h1>{{ include.title | default: page.title }}</h1></header>
+  <div style="background-image:assets/iamge/background.svg">This is a future landing page./div>
+  <h1>Recent Posts</h1>
   <nav class="smooth">
     {% for post in site.posts %}
     <div><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
