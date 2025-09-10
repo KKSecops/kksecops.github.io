@@ -37,6 +37,17 @@ comments:
 #  disqus_shortname: ""         # see https://disqus.com
 #  isso_domain: ""              # see https://isso-comments.de
 
+collections: #define new collections
+  academic:
+    output: true
+    permalink: /academic/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  writeups:
+    output: true
+    permalink: /writeups/:path/
+
 plugins:
  - jekyll-feed
  - jekyll-paginate
