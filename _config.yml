@@ -16,7 +16,7 @@ show_sidebar: true            # show a sidebar instead of the usual header
 show_minimal: false             # remove all clutter
 
 show_frame: "/assets/images/background.svg"
-favicon: false #has favicon?
+favicon: true #has favicon? defined in head
 
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
