@@ -17,9 +17,8 @@
 <link rel="alternate" href="{{ site.feed.path | default: "/feed.xml" | relative_url }}" type="application/atom+xml" title="{{ site.title }}">
 {%- endif -%}
 {%- if site.favicon -%}
-
-{%- endif -%}
 <link rel="icon" type="image/x-icon" href="/assets/images/background.svg">
+{%- endif -%}
 {%- if page.mathjax or site.mathjax -%}
 <link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}">
 {% unless site.plugins contains "jektex" %}
